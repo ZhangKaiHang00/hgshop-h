@@ -5,7 +5,14 @@ import java.util.List;
 import com.github.pagehelper.PageInfo;
 import com.zkh.hgshop.pojo.Brand;
 import com.zkh.hgshop.pojo.Category;
-
+/**
+ * 
+    * @ClassName: GoodsService
+    * @Description: **** Dubbo 服务接口函数比要有非Void 的返回值********
+    * @author 张凯航
+    * @date 2020年3月3日
+    *
+ */
 public interface GoodsService {
 
 	int addBrand(Brand brand);
